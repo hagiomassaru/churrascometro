@@ -1,2 +1,2 @@
 # churrascometro
- Exerciocio do curso ProgramadorBR
+ Exercicio do curso ProgramadorBR
