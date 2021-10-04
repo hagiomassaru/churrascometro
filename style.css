@@ -5,31 +5,39 @@
     background-color: rgb(202, 163, 53);
 }
 
-#container{
+.container{
     display: block;
     background-color: white;
-    width: 500px;
-    height: 500px;    
+    max-width: 500px;  
     margin: auto;
     margin-top: 100px;
     border-radius: 10px;
     padding: 20px;
 }
 
-#container h1{
+.container h1{
     background-color: inherit;
     text-align: center;
     margin-bottom: 50px;
 
 
 }
-#container input{
+.container input,button{
     display: block;
-    width: 250px;
+    width: 100%;
     background-color: rgb(209, 193, 147);
     border-radius: 5px;
     border: 1px solid black;
     padding: 5px;
     margin: auto;
     margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.container input:hover{
+    background-color: rgb(202, 163, 53);
+
+}
+.container button:hover{
+    background-color: rgb(202, 163, 53);
 }
