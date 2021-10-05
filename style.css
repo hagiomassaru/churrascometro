@@ -41,3 +41,7 @@
 .container button:hover{
     background-color: rgb(202, 163, 53);
 }
+
+.container p{
+    background-color: white;
+}
